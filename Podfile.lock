@@ -1,0 +1,16 @@
+PODS:
+  - TLRadioButton (0.1.1)
+
+DEPENDENCIES:
+  - TLRadioButton
+
+SPEC REPOS:
+  trunk:
+    - TLRadioButton
+
+SPEC CHECKSUMS:
+  TLRadioButton: 967a72865ae90e4048e682b3f309700b14595efa
+
+PODFILE CHECKSUM: 7b74b55692d82dd2f3538f97a8a7c2a578df09af
+
+COCOAPODS: 1.9.0

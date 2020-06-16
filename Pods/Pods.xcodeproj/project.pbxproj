@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042B757751AC191785942BF06310C513 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		17F5D563795B09F7E849D2EF379F6536 /* Pods-accessibilityDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 14DB5F154AA802EA60290B0637F4965F /* Pods-accessibilityDemo-dummy.m */; };
+		2591A28E6A20E567A4886B008F6C5DEF /* QCMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A239CA4B0641B66F73885B5A5AF501F /* QCMethod.m */; };
+		5B164C49DFF078239AFB0B4628253E86 /* TLRadioButton-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A952B779EC90C26857A4E6B8ED6255 /* TLRadioButton-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6ED46D6F5A34E6DE1130AF714ABF9D5A /* Pods-accessibilityDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FB0BD25DBB33680312AC50115D5A2F8 /* Pods-accessibilityDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A2B7AB9598E6E64F0594AB738D1F5A3 /* TLRadioButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 962B424050349D0E4399CDDB00EB7EB7 /* TLRadioButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1317F41812604A1833390BDFDEE2DC8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		AA111D661E8A0EBF5963E962AD4F965B /* TLRadioButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 07F6F1338EC837E8DB185E172A8F2DA8 /* TLRadioButton.m */; };
+		AA4CC188C180A9C3CA0ED7BE5949EE8A /* TLRadioButton-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7168BA9D6466FBD69F6D683286E2D2D4 /* TLRadioButton-dummy.m */; };
+		EDD566C8D37256845C4D83BEA3466592 /* QCMethod.h in Headers */ = {isa = PBXBuildFile; fileRef = E6A3ABE25FF6C7959F32363579EC74F8 /* QCMethod.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		446DBA8FC7A73071BACC782E227640FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5567E20EFEB759554E716B1C5F8B4BAC;
+			remoteInfo = TLRadioButton;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07F6F1338EC837E8DB185E172A8F2DA8 /* TLRadioButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TLRadioButton.m; path = TLRadioButton/Classes/TLRadioButton.m; sourceTree = "<group>"; };
+		0FB0BD25DBB33680312AC50115D5A2F8 /* Pods-accessibilityDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-accessibilityDemo-umbrella.h"; sourceTree = "<group>"; };
+		14DB5F154AA802EA60290B0637F4965F /* Pods-accessibilityDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-accessibilityDemo-dummy.m"; sourceTree = "<group>"; };
+		160EC393E9256AE266E7F7B78DBBEDCA /* Pods-accessibilityDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-accessibilityDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		27A63E1B4D8347D517758E600AD1C5EC /* Pods-accessibilityDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-accessibilityDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3A272911A3DE37A4832A357841990CDA /* Pods-accessibilityDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-accessibilityDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3C7F5BB2F164E0DD068B522DA711CAC1 /* TLRadioButton.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = TLRadioButton.framework; path = TLRadioButton.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AF928C06121090011F3E3EA6A63440 /* Pods_accessibilityDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_accessibilityDemo.framework; path = "Pods-accessibilityDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7168BA9D6466FBD69F6D683286E2D2D4 /* TLRadioButton-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "TLRadioButton-dummy.m"; sourceTree = "<group>"; };
+		78F68B003727DA76E15640D04E7EFFD1 /* Pods-accessibilityDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-accessibilityDemo-Info.plist"; sourceTree = "<group>"; };
+		7E164744000A0CC5F3DFA7DF4D8EBFA6 /* TLRadioButton.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLRadioButton.debug.xcconfig; sourceTree = "<group>"; };
+		7F8076F574EA7F655071B3E5E85DCA13 /* Pods-accessibilityDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-accessibilityDemo.modulemap"; sourceTree = "<group>"; };
+		8171BD1322728A0579BFC4F19D8FC8D5 /* Pods-accessibilityDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-accessibilityDemo-frameworks.sh"; sourceTree = "<group>"; };
+		8A239CA4B0641B66F73885B5A5AF501F /* QCMethod.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QCMethod.m; path = TLRadioButton/Classes/QCMethod.m; sourceTree = "<group>"; };
+		962B424050349D0E4399CDDB00EB7EB7 /* TLRadioButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TLRadioButton.h; path = TLRadioButton/Classes/TLRadioButton.h; sourceTree = "<group>"; };
+		9B59F7D9DACAEF70318BFD2446887E4D /* TLRadioButton-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "TLRadioButton-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC912D1C0997AE9640A73050942D0E2B /* Pods-accessibilityDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-accessibilityDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C0A952B779EC90C26857A4E6B8ED6255 /* TLRadioButton-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLRadioButton-umbrella.h"; sourceTree = "<group>"; };
+		D586BA526998C39F1B5E9EBE365EB94D /* TLRadioButton.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = TLRadioButton.modulemap; sourceTree = "<group>"; };
+		E6A3ABE25FF6C7959F32363579EC74F8 /* QCMethod.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QCMethod.h; path = TLRadioButton/Classes/QCMethod.h; sourceTree = "<group>"; };
+		EB9D3DB02583996B57196BA6FDE05F69 /* TLRadioButton.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = TLRadioButton.release.xcconfig; sourceTree = "<group>"; };
+		FB43517468E63409FE57B7A234CD3B74 /* TLRadioButton-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "TLRadioButton-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		191D26B9BC49F1EB8A70EE16B86D9243 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042B757751AC191785942BF06310C513 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DF4F0939433C81DF5A915551595BE108 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1317F41812604A1833390BDFDEE2DC8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11DE3FDAF09F95E02AA5243CD9D15531 /* TLRadioButton */ = {
+			isa = PBXGroup;
+			children = (
+				E6A3ABE25FF6C7959F32363579EC74F8 /* QCMethod.h */,
+				8A239CA4B0641B66F73885B5A5AF501F /* QCMethod.m */,
+				962B424050349D0E4399CDDB00EB7EB7 /* TLRadioButton.h */,
+				07F6F1338EC837E8DB185E172A8F2DA8 /* TLRadioButton.m */,
+				B1E2044F0439BD245A7C4AEEB232748A /* Support Files */,
+			);
+			name = TLRadioButton;
+			path = TLRadioButton;
+			sourceTree = "<group>";
+		};
+		527CFD43ABBBF768DE2824638FB89F78 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE09A56201409780364B10EBE4D12B7F /* Pods-accessibilityDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9FC39E88FEE23978922C03E268A929F6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11DE3FDAF09F95E02AA5243CD9D15531 /* TLRadioButton */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AE09A56201409780364B10EBE4D12B7F /* Pods-accessibilityDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7F8076F574EA7F655071B3E5E85DCA13 /* Pods-accessibilityDemo.modulemap */,
+				27A63E1B4D8347D517758E600AD1C5EC /* Pods-accessibilityDemo-acknowledgements.markdown */,
+				160EC393E9256AE266E7F7B78DBBEDCA /* Pods-accessibilityDemo-acknowledgements.plist */,
+				14DB5F154AA802EA60290B0637F4965F /* Pods-accessibilityDemo-dummy.m */,
+				8171BD1322728A0579BFC4F19D8FC8D5 /* Pods-accessibilityDemo-frameworks.sh */,
+				78F68B003727DA76E15640D04E7EFFD1 /* Pods-accessibilityDemo-Info.plist */,
+				0FB0BD25DBB33680312AC50115D5A2F8 /* Pods-accessibilityDemo-umbrella.h */,
+				BC912D1C0997AE9640A73050942D0E2B /* Pods-accessibilityDemo.debug.xcconfig */,
+				3A272911A3DE37A4832A357841990CDA /* Pods-accessibilityDemo.release.xcconfig */,
+			);
+			name = "Pods-accessibilityDemo";
+			path = "Target Support Files/Pods-accessibilityDemo";
+			sourceTree = "<group>";
+		};
+		B1E2044F0439BD245A7C4AEEB232748A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D586BA526998C39F1B5E9EBE365EB94D /* TLRadioButton.modulemap */,
+				7168BA9D6466FBD69F6D683286E2D2D4 /* TLRadioButton-dummy.m */,
+				9B59F7D9DACAEF70318BFD2446887E4D /* TLRadioButton-Info.plist */,
+				FB43517468E63409FE57B7A234CD3B74 /* TLRadioButton-prefix.pch */,
+				C0A952B779EC90C26857A4E6B8ED6255 /* TLRadioButton-umbrella.h */,
+				7E164744000A0CC5F3DFA7DF4D8EBFA6 /* TLRadioButton.debug.xcconfig */,
+				EB9D3DB02583996B57196BA6FDE05F69 /* TLRadioButton.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/TLRadioButton";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9FC39E88FEE23978922C03E268A929F6 /* Pods */,
+				D0C30755C9DD3FBCBFF0AECFBC72EFFF /* Products */,
+				527CFD43ABBBF768DE2824638FB89F78 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C30755C9DD3FBCBFF0AECFBC72EFFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45AF928C06121090011F3E3EA6A63440 /* Pods_accessibilityDemo.framework */,
+				3C7F5BB2F164E0DD068B522DA711CAC1 /* TLRadioButton.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		B3C944A1557391E048BEACBE299A03D7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDD566C8D37256845C4D83BEA3466592 /* QCMethod.h in Headers */,
+				5B164C49DFF078239AFB0B4628253E86 /* TLRadioButton-umbrella.h in Headers */,
+				9A2B7AB9598E6E64F0594AB738D1F5A3 /* TLRadioButton.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E340E6D060727D451EF30FF161AB3674 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ED46D6F5A34E6DE1130AF714ABF9D5A /* Pods-accessibilityDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5567E20EFEB759554E716B1C5F8B4BAC /* TLRadioButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C7E56C1C756AFF850322EAFBEEC11C69 /* Build configuration list for PBXNativeTarget "TLRadioButton" */;
+			buildPhases = (
+				B3C944A1557391E048BEACBE299A03D7 /* Headers */,
+				7E57CCD350F445D6CF8AECA283A7B578 /* Sources */,
+				191D26B9BC49F1EB8A70EE16B86D9243 /* Frameworks */,
+				3856DA974F3E3BF4D5AECF83AED4BD4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TLRadioButton;
+			productName = TLRadioButton;
+			productReference = 3C7F5BB2F164E0DD068B522DA711CAC1 /* TLRadioButton.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D347B821C814DE89F4F097115DABAB0A /* Pods-accessibilityDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB8D30CBE85C6BF9729D87FB4471FCD6 /* Build configuration list for PBXNativeTarget "Pods-accessibilityDemo" */;
+			buildPhases = (
+				E340E6D060727D451EF30FF161AB3674 /* Headers */,
+				1DB6BBA6FE01EF9EC8CBBA38D773CD2A /* Sources */,
+				DF4F0939433C81DF5A915551595BE108 /* Frameworks */,
+				3EE9563AE94EA30172A683F75E7E0D85 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D6D6074BE5B3683243819931B1ACFD7F /* PBXTargetDependency */,
+			);
+			name = "Pods-accessibilityDemo";
+			productName = "Pods-accessibilityDemo";
+			productReference = 45AF928C06121090011F3E3EA6A63440 /* Pods_accessibilityDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = D0C30755C9DD3FBCBFF0AECFBC72EFFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D347B821C814DE89F4F097115DABAB0A /* Pods-accessibilityDemo */,
+				5567E20EFEB759554E716B1C5F8B4BAC /* TLRadioButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3856DA974F3E3BF4D5AECF83AED4BD4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EE9563AE94EA30172A683F75E7E0D85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1DB6BBA6FE01EF9EC8CBBA38D773CD2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17F5D563795B09F7E849D2EF379F6536 /* Pods-accessibilityDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E57CCD350F445D6CF8AECA283A7B578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2591A28E6A20E567A4886B008F6C5DEF /* QCMethod.m in Sources */,
+				AA4CC188C180A9C3CA0ED7BE5949EE8A /* TLRadioButton-dummy.m in Sources */,
+				AA111D661E8A0EBF5963E962AD4F965B /* TLRadioButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D6D6074BE5B3683243819931B1ACFD7F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = TLRadioButton;
+			target = 5567E20EFEB759554E716B1C5F8B4BAC /* TLRadioButton */;
+			targetProxy = 446DBA8FC7A73071BACC782E227640FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F5CE9157A6944C572608740FA41A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4534EC39F1585DD0B2A32476E438F17C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC912D1C0997AE9640A73050942D0E2B /* Pods-accessibilityDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-accessibilityDemo/Pods-accessibilityDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-accessibilityDemo/Pods-accessibilityDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		62C988013314EB95C1958C914CA19FE8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A272911A3DE37A4832A357841990CDA /* Pods-accessibilityDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-accessibilityDemo/Pods-accessibilityDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-accessibilityDemo/Pods-accessibilityDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		80CA7473EA86FB6F65FA6F07B8A10EE1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E164744000A0CC5F3DFA7DF4D8EBFA6 /* TLRadioButton.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLRadioButton/TLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLRadioButton/TLRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TLRadioButton/TLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = TLRadioButton;
+				PRODUCT_NAME = TLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AA6740889CA9CA7A9F358172A4297CC1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9D3DB02583996B57196BA6FDE05F69 /* TLRadioButton.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/TLRadioButton/TLRadioButton-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/TLRadioButton/TLRadioButton-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/TLRadioButton/TLRadioButton.modulemap";
+				PRODUCT_MODULE_NAME = TLRadioButton;
+				PRODUCT_NAME = TLRadioButton;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B102853BB3392A16E68667C38114BC6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F5CE9157A6944C572608740FA41A6A5 /* Debug */,
+				B102853BB3392A16E68667C38114BC6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C7E56C1C756AFF850322EAFBEEC11C69 /* Build configuration list for PBXNativeTarget "TLRadioButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80CA7473EA86FB6F65FA6F07B8A10EE1 /* Debug */,
+				AA6740889CA9CA7A9F358172A4297CC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB8D30CBE85C6BF9729D87FB4471FCD6 /* Build configuration list for PBXNativeTarget "Pods-accessibilityDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4534EC39F1585DD0B2A32476E438F17C /* Debug */,
+				62C988013314EB95C1958C914CA19FE8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
